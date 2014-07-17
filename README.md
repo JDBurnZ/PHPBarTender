@@ -34,7 +34,7 @@ $labels = array(
     'FieldName2' => 'FieldValue456'
   )
 );
-$xml = $bartender->generateToReturn($label_data);
+$xml = $bartender->generateToReturn($labels);
 </pre>
 
 
@@ -52,5 +52,5 @@ $labels = array(
   )
 );
 $filename = '/path/to/file.xml';
-$bartender->generateToFile($label_data, $filename);
+$bartender->generateToFile($labels, $filename);
 </pre>

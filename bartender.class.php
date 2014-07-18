@@ -62,7 +62,7 @@ class BarTender {
 	}
 
 	public function generateToFile($label_jobs, $filename) {
-		$xml = $this->generate($label_jobs);
+		$xml = $this->_generate($label_jobs);
 		$file_pointer = fopen($filename, 'wb');
 		fwrite($file_pointer, $xml);
 		fclose($file_pointer);

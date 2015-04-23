@@ -54,3 +54,10 @@ $labels = array(
 $filename = '/path/to/file.xml';
 $bartender->generateToFile($labels, $filename);
 </pre>
+
+
+Donations
+---------
+PHPBarTender is free software, but donations help the developer spend more time maintaining this projects and others like it.
+<br />
+<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=S42X58PL8SR2Y"><img src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" /></a>
